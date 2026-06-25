@@ -67,6 +67,7 @@
             buttonCheck.TabIndex = 1;
             buttonCheck.Text = "Проверить правильность скобочной последовательности";
             buttonCheck.UseVisualStyleBackColor = true;
+            buttonCheck.Click += buttonCheck_Click;
             // 
             // buttonRun
             // 
@@ -77,6 +78,7 @@
             buttonRun.TabIndex = 2;
             buttonRun.Text = "Выполнить";
             buttonRun.UseVisualStyleBackColor = true;
+            buttonRun.Click += buttonRun_Click;
             // 
             // groupBoxPrefix
             // 
